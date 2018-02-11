@@ -8,8 +8,12 @@ public class FacultyMain {
 		Person Mahir = new Person("Mahir", "Gracanica", "38762597620", "mahir.smajilbasic@gmail.com");
 		Student Emina = new Student("Emina", "Lukavac", "38762123456", "emina@bild.org", 1);
 		Employee Dejan = new Employee("Dejan", "Doboj", "38761564789", "dejan@bild.org", "Doboj", 1337, "30.02.2003");
-		Faculty Jasmin = new Faculty();
-		Stuff DelPiero = new Stuff();
+		
+		
+		System.out.println(Mahir.toString());
+		System.out.println(Emina.toString());
+		System.out.println(Dejan.toString());
+		
 	}
 	
 	
